@@ -43,18 +43,17 @@
   .header {
       background-color: #66D1FF;
       color: #060D10;
+      font-size: 28px;
+      line-height: 34px;
   }
 
-  .header-list-btn {
+  .header-btn {
     font-size: 24px;
     line-height: 29px;
     text-decoration: none;
   }
 
-  .header-item-list {
-    font-size: 28px;
-    line-height: 34px;
-  }
+
 
   /* Promo */
 
@@ -84,34 +83,42 @@
     line-height: 167%;
   }
 
-  .learn-items-title {
+  .learn-list{
+    list-style: none;
+  }
+
+  .learn-subtitle {
     font-family: 'Oswald' , sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 167%;
   }
 
-  .learn-items-descr {
+  .learn-descr {
     font-size: 26px;
     line-height: 140%;
   }
 
-  /* go */
-  .go {
+  /* lead */
+  .lead {
       text-align: center;
   }
 
-  .go-title {
+  .lead-title {
     font-family: 'Oswald' , sans-serif;
     font-weight: 500;
     font-size: 48px;
-    line-height: 167%; 
+    line-height: 167%;
   }
-  .go-btn {
+  .lead-btn {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     text-decoration: none;
+  }
+
+  .lead-list {
+    list-style: none;
   }
 
   .footer {
@@ -120,3 +127,8 @@
     line-height: 167%;
     color: #fff;
   }
+
+  .social {
+    list-style: none;
+  }
+
