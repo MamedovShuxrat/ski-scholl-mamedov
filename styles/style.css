@@ -37,6 +37,7 @@
   * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
   }
 
   body {
@@ -58,6 +59,12 @@
 
   }
 
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+  }
+
   .header-btn {
     font-size: 24px;
     line-height: 29px;
@@ -65,6 +72,15 @@
     background-color: #fff;
     color: #060D10;
     padding: 8px 41px;
+  }
+
+  .header-tel {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration: none;
+    text-align: center;
+    color: #060D10;
   }
 
 
@@ -97,16 +113,35 @@
   }
 
   /* Learn */
+  .learn {
+    background-color:rgba(102, 209, 255, .1);
+    padding: 170px 0 100px;
+
+  }
 
   .learn-title {
     font-family: 'Oswald' , sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 167%;
+    margin-bottom: 100px;
+    text-align: center;
   }
 
   .learn-list{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+  }
+
+  .learn-item {
+    flex-basis: 33.33%;
+    margin-bottom: 70px;
+    padding: 0 15px;
+
   }
 
   .learn-subtitle {
@@ -114,6 +149,7 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 167%;
+    margin-bottom: 25px;
   }
 
   .learn-descr {
@@ -123,7 +159,9 @@
 
   /* lead */
   .lead {
+    background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) , 43.85%, rgba(196, 196, 196, 0) 43.86%);
       text-align: center;
+      padding: 170px 0 180px;
   }
 
   .lead-title {
@@ -131,16 +169,35 @@
     font-weight: 500;
     font-size: 48px;
     line-height: 167%;
+    margin-bottom: 60px;
   }
   .lead-btn {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     text-decoration: none;
+    padding: 22px 108px;
+    border: 1px solid #060D10;
+    display: inline-block;
+    color: #060D10;
+    margin-bottom: 130px;
   }
 
   .lead-list {
+    margin: 0 -15px;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lead-item {
+    flex-basis: 25%;
+    padding: 0 15px;
+
+  }
+
+  .lead-img {
+    display: block;
   }
 
   .footer {
@@ -148,10 +205,25 @@
     font-size: 20px;
     line-height: 167%;
     color: #fff;
+    padding: 35px 0;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-item {
+    display: flex;
   }
 
   .social {
     list-style: none;
+    display: flex;
+  }
+
+  .social-item {
+    padding: 0 10px;
   }
 
   .social-link {
@@ -162,9 +234,10 @@
     background-repeat: no-repeat;
     background-position: center;
 
+
   }
 
-  .social-text {
-    display: none;
-  }
+.footer-text {
+  padding-left: 50px;
+}
 
